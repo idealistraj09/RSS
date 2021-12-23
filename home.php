@@ -54,9 +54,10 @@
                         <button onclick="swap()"><img src="https://img.icons8.com/glyph-neue/50/000000/swap.png" height="30px" width="20px" /></button>
                         <input type="date" require>
                         <select name="class">
+                            <option value="default"><select name="" id=""></select></option>
                             <option value="AC">AC</option>
                             <option value="Non-AC">Non-AC</option>
-                            <option value="Slpper">Slpper</option>
+                            <option value="Slepper">Slepper</option>
                             <option value="Seater">Seater</option>
                         </select>
                         <input type="submit" name="Search" value="Search" onclick="hi()">
