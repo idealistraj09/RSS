@@ -2,31 +2,30 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: aqua;
+    background-color: #fff;
 }
 .container__header
 {
-    flex-shrink: 0;
-    background-color: bisque;
+    background-color: white;
     height: 10%;
 }
 .container__footer{
     flex-shrink: 0;
     background-color: bisque;
     height: 10%;
+    background: white;
 }
 
 .container__main {
     flex-grow: 1;
-    background-color: blue;
+    background-color: white;
     z-index: 2;
 }
 .container_title{
     
     font-size: 290%;
     animation: Railway 2s ease-out 1s 1 alternate-reverse both;   
-    margin-left: 8%;
-    margin-top: -5%;
+
     
 }
 .container__header img
@@ -231,7 +230,7 @@
       text-decoration: var(--uirLinkTextDecoration) !important;
   }
   .menu__list {
-      background-color: #121212;
+      background-color: rgb(150, 209, 10);
       
   }
   .menu__list .titlerailway{
@@ -243,40 +242,44 @@
   .menu__list img{
     margin-top: 1%;
   }
-.container__main .main_book{
-  font-size: 20px;
-  text-align: center;
-  height: 500px;
-  width: 500px;
-  margin: 20px;
-  border: solid #121212;
-  
+
+.container__main .main_book {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: -15px -15px -15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1)
 }
+
 .container__main .main_book .main_title{
-  border: solid #121212;
-  margin: 5px;
-  padding: 5px;
+  border: solid #6c5ce7;
+  margin: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  width: 460px;
+  margin-top: 50px;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255);
 }
 .container__main .main_book .main_content{
-  border: solid #121212;
+  border: solid #6c5ce7;
   height: 425px;
   width: 460px;
   z-index: 2;
-  margin-left: 4%;
-  background-color: #6c5ce7;
-  
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 .container__main .main_book .main_content input[type=text],input[type=date],select,input[type=submit]
 {
-  background-color: #6c5ce7;
-  border: solid 2px #241c69;
+  background-color: rgb(231, 227, 227);
+  border: solid 2px rgb(231, 227, 227);
   border-radius: 5px;
   padding: 2px;
   float: left ;
   margin: 15px;
   margin-top: 30px;
   font-size: 20px;
-  width: 200px;
+  width: 300px;
 }
 .container__main .main_book .main_content button{
   border-radius: 5px;
