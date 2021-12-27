@@ -5,9 +5,8 @@
     <script src="signin.js"></script>
     <title>sign in</title>
 </head>
-
 <body>
-    <h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
+    <h2>Join us</h2>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="#">
