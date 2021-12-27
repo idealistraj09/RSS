@@ -8,7 +8,7 @@
 <body>
     <h2>Join us</h2>
     <div class="container" id="container">
-        <div class="form-container sign-up-container">
+        <!-- <div class="form-container sign-up-container">
             <form action="#">
                 <h1>Create Account</h1>
                 <span>or use your email for registration</span>
@@ -17,7 +17,7 @@
                 <input type="password" placeholder="Password" />
                 <button>Sign Up</button>
             </form>
-        </div>
+        </div> -->
         <div class="form-container sign-in-container">
             <form action="#">
                 <h1>Sign in</h1>
