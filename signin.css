@@ -14,6 +14,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
+	flex-direction: column;
 }
 
 h1 {
@@ -99,8 +100,14 @@ input {
 	width: 768px;
 	max-width: 100%;
 	min-height: 480px;
+	display: inline-flex;
+	
 }
-
+.gender1{
+	display: flex;
+	flex-direction:row;
+	
+}
 .form-container {
 	position: absolute;
 	top: 0;
@@ -111,7 +118,11 @@ input {
 .sign-in-container {
 	left: 0;
 	width: 50%;
-	z-index: 2;
+	height: 100%;
+	z-index: 3;
+	
+	
+	
 }
 
 .container.right-panel-active .sign-in-container {
@@ -121,8 +132,11 @@ input {
 .sign-up-container {
 	left: 0;
 	width: 50%;
+	height: 100%;
 	opacity: 0;
 	z-index: 1;
+	display: flex;
+	flex-direction: column;
 }
 
 .container.right-panel-active .sign-up-container {
@@ -152,7 +166,7 @@ input {
 	height: 100%;
 	overflow: hidden;
 	transition: transform 0.6s ease-in-out;
-	z-index: 100;
+	
 }
 
 .container.right-panel-active .overlay-container{
@@ -193,7 +207,12 @@ input {
 	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
-
+input[type="radio"]{
+	margin-right: 10px;
+	background-color: #222;
+	display: flex;
+	flex-direction: column-reverse;
+}
 .overlay-left {
 	transform: translateX(-20%);
 }
@@ -211,20 +230,6 @@ input {
 	transform: translateX(20%);
 }
 
-.social-container {
-	margin: 20px 0;
-}
-
-.social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
-}
 
 footer {
     background-color: #222;
@@ -235,8 +240,7 @@ footer {
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 999;
-}
+    }
 
 footer p {
     margin: 10px 0;
